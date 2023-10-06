@@ -1,0 +1,8 @@
+.button-home {
+    width: 213px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: #E9E9E9;
+    border: none;
+  }
