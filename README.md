@@ -1,6 +1,8 @@
-# React + Vite
+# Un marketplace hecho con React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aquí puedes ver el diseño del marketplace: https://www.figma.com/file/N93E8UJ7CLwUPz4swCCJBr/Untitled?type=design&node-id=0%3A1&mode=design&t=6WgrVZ5HZIzOl98L-1
+
+En caso que quieras realizar un PR hazlo en la rama development.
 
 Currently, two official plugins are available:
 
