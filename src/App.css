@@ -11,10 +11,27 @@
 }
 
 .search {
+    width: 400px;
+    max-width: 450px;
     border-radius: 14px;
     height: 40px;
     padding: 8px 24px;
     border: 1px solid #c0c0c0;
+    margin-right: 8px;
+    outline: #828282 1px;
+}
+
+.btn-search {
+    width: 40px;
+    height: 40px;
+    border: none;
+    border-radius: 40px;
+    background-color: #dbdbdb;
+    cursor: pointer;
+}
+
+.btn-search:hover {
+    background-color: #e3e3e3;
 }
 
 .main {

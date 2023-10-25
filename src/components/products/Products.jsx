@@ -1,29 +1,7 @@
 import { Product } from '../product/Product'
 import './Products.css'
 
-const Products = () => {
-    const products = [
-        {
-            name: 'Raqueta',
-            price: 50000,
-            img: 'https://'
-        },
-        {
-            name: 'Balón',
-            price: 120000,
-            img: 'https://'
-        },
-        {
-            name: 'Raqueta',
-            price: 50000,
-            img: 'https://'
-        },
-        {
-            name: 'Raqueta',
-            price: 50000,
-            img: 'https://'
-        },
-    ]
+const Products = ({ products }) => {
 
     return (
         // No es HTML
