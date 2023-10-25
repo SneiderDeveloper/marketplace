@@ -2,7 +2,6 @@ import productImg from '../../assets/productOne.svg'
 import './Product.css'
 
 const Product = ({ product }) => {
-    
 
     const price = Intl.NumberFormat("es-CO", {
         style: "currency",
