@@ -1,0 +1,16 @@
+name: Say hello
+
+on:
+  push: 
+    branches: 
+      - main
+
+jobs: 
+  hello_world:
+    # Sistema operativo donde va a correr
+    runs-on: ubuntu-18.04
+    steps: 
+      - name: Echo the message
+        run: |
+          echo "Hola!"
+  
