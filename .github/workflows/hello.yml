@@ -9,8 +9,7 @@ jobs:
     runs-on: ubuntu-18.04
     steps:
       - name: Echo the message
-        run: |
-          echo "Hola!"
+        run: echo "Hola!"
       - name: Dime la fecha
         run: date
       - run: ls -l
