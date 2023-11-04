@@ -1,12 +1,10 @@
-name: Say hello
-
-on:
-  push:
-    branches: [ development ]
-
+name: Deploy CMS
+ 
+on: workflow_dispatch
+ 
 jobs:
   hello_world:
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - name: Echo the message
         run: echo "Hola!"
