@@ -2,8 +2,8 @@ name: Say hello
 
 on:
   push: 
-    branches: 
-      - development
+    branches: [ development ]
+  
 
 jobs: 
   hello_world:
