@@ -3,13 +3,11 @@ name: Deploy CMS
 on: workflow_dispatch
  
 jobs:
-  build-and-deploy:
+  hello_world:
     runs-on: ubuntu-latest
- 
-    steps:     
-      - name: Checkout repository
-        uses: actions/checkout@v2
-      - name: Set up Node.js
-        uses: actions/setup-node@v2
-        with:
-          node-version: '20'
+    steps:
+      - name: Echo the message
+        run: echo "Hola!"
+      - name: Dime la fecha
+        run: date
+      - run: ls -l
