@@ -1,19 +1,16 @@
 name: Say hello
 
 on:
-  push: 
-    branches: 
-      - main
+  push:
+    branches: [ development ]
 
-jobs: 
+jobs:
   hello_world:
-<<<<<<< HEAD
-=======
-    # Sistema operativo donde va a correr
->>>>>>> 21194190b5feced88d723f80cae4a459d780a080
     runs-on: ubuntu-18.04
-    steps: 
+    steps:
       - name: Echo the message
         run: |
           echo "Hola!"
-  
+      - name: Dime la fecha
+        run: date
+      - run: ls -l
