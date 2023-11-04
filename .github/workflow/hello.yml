@@ -1,18 +1,16 @@
 name: Say hello
 
 on:
-  push: 
+  push:
     branches: [ development ]
-  
 
-jobs: 
+jobs:
   hello_world:
     runs-on: ubuntu-18.04
-    steps: 
+    steps:
       - name: Echo the message
         run: |
           echo "Hola!"
       - name: Dime la fecha
         run: date
       - run: ls -l
-  
